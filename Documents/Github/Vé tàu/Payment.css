@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 170, 255);
+    padding: 10px 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+}
+
+.login a{
+    background-color: orange;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: rgb(0, 238, 255);
+}
+
+.login a:hover{
+    background-color: rgb(47, 188, 15);
+}
+
+.navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar .links {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar .search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.navbar button {
+    padding: 5px 10px;
+    background-color: rgb(0, 26, 255);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navbar button:hover {
+    background-color: rgb(0, 238, 255);
+}
+
+table, th, td {
+    border:1px solid black;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+/* form */
+.form-group label {
+    width: 150px; /* Độ rộng của label */
+    /* font-weight: bold;
+    color: #555; */
+}
+
+.form-group input {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group select {
+    width: 100px;
+}
+/* pay */
+.pay{
+    background-color: orangered;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.pay:hover{
+    background-color: rgb(0, 238, 255);
+}
+

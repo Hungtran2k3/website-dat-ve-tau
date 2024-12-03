@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #0078d7;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.train-info {
+    flex: 3;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.train {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 120px;
+}
+
+#train-active {
+    background-color: #0078d7;
+    color: white;
+}
+
+.coach {
+    flex: 2;
+    margin: 20px;
+}
+
+.seats {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 5px;
+}
+
+.seat {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.seat.available {
+    background-color: #28a745;
+    color: white;
+}
+
+.seat.unavailable {
+    background-color: #dc3545;
+    color: white;
+}
+
+.sidebar {
+    flex: 1;
+    padding: 10px;
+}
+
+.ticket-info, .itinerary {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Quy định đổi, trả vé */
+.rules-section h3 {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.rules-section ol {
+    padding-left: 20px;
+}
+
+.rules-section ul {
+    padding-left: 40px;
+    list-style-type: disc;
+}
+
+.rules-section li {
+    margin: 10px 0;
+}
+
+.rules-section i {
+    display: block;
+    margin-top: 15px;
+    font-style: italic;
+    color: gray;
+}
+
+.note-section {
+    background-color: #e5f3ff;
+    padding: 15px;
+    border: 1px solid #d9edf7;
+    margin-bottom: 20px;
+}
+
+.note-section p {
+    font-weight: bold;
+}
+
+.note-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.note-section ul li {
+    margin: 5px 0;
+}
+
+.download-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.app-buttons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.app-buttons img {
+    width: 150px;
+    height: auto;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}

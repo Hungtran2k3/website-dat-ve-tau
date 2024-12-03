@@ -1,0 +1,215 @@
+/* Đặt font chung cho trang */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 170, 255);
+    padding: 10px 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+}
+
+.login a{
+    background-color: orange;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: rgb(0, 238, 255);
+}
+
+.login a:hover{
+    background-color: rgb(47, 188, 15);
+}
+
+.navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar .links {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar .search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.navbar button {
+    padding: 5px 10px;
+    background-color: rgb(0, 26, 255);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navbar button:hover {
+    background-color: rgb(0, 238, 255);
+}
+
+/* Container chính */
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Phần tra cứu */
+.search-section h2 {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.search-section p {
+    margin: 15px 0;
+}
+
+.search-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-section form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.search-section form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-section form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-section form button:hover {
+    background-color: #0056b3;
+}
+
+.search-section .forgot-code {
+    margin-top: 10px;
+    text-align: center;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.search-section .forgot-code:hover {
+    text-decoration: underline;
+}
+
+/* Quy định đổi, trả vé */
+.rules-section h3 {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.rules-section ol {
+    padding-left: 20px;
+}
+
+.rules-section ul {
+    padding-left: 40px;
+    list-style-type: disc;
+}
+
+.rules-section li {
+    margin: 10px 0;
+}
+
+.rules-section i {
+    display: block;
+    margin-top: 15px;
+    font-style: italic;
+    color: gray;
+}
+
+.note-section {
+    background-color: #e5f3ff;
+    padding: 15px;
+    border: 1px solid #d9edf7;
+    margin-bottom: 20px;
+}
+
+.note-section p {
+    font-weight: bold;
+}
+
+.note-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.note-section ul li {
+    margin: 5px 0;
+}
+
+.download-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.app-buttons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.app-buttons img {
+    width: 150px;
+    height: auto;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+footer .certification img {
+    width: 150px;
+    margin-top: 10px;
+}
+
